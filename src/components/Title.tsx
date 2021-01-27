@@ -5,13 +5,14 @@ type Props = {
 }
 
 const title: React.CSSProperties = {
-  color: '#707070',
-  padding: '15px',
-  fontWeight: 'bolder',
-  fontSize: '5vw',
-  textDecoration: 'underline',
-  margin: '0',
-  textAlign: 'left'
+  color: "#707070",
+  fontWeight: "bolder",
+  fontSize: "min(53.76px, 7vw)",
+  textDecoration: "underline",
+  margin: "0",
+  padding: "30px",
+  paddingLeft: "7vw",
+  textAlign: "left",
 };
 
 class Title extends React.Component<Props,{}> {

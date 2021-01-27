@@ -49,3 +49,13 @@
     transform: rotate(360deg);
   }
 }
+
+.home-container {
+  scroll-snap-type: y mandatory;
+   overflow: auto;
+  height:100vh;
+}
+.home-child {
+  scroll-snap-align: start;
+  height: 100%;
+}

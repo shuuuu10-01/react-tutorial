@@ -19,9 +19,9 @@ function App() {
           </Switch>
         </Router>
       </main>
-      <footer className="App-footer">
+      {/* <footer className="App-footer">
         <p>2021©shuuuu</p>
-      </footer>
+      </footer> */}
     </div>
   );
 }
