@@ -25,6 +25,7 @@ class Header extends React.Component<{}, State> {
           onClick={onClick}
         />
         <div className={"right-menu " + (this.state.isOpen ? "open-menu" : "")}>
+          <i className="fas fa-arrow-right menu-icon" onClick={onClick}></i>
           <nav className="contents">
             <ul>
               <li>
@@ -42,6 +43,10 @@ class Header extends React.Component<{}, State> {
             </ul>
           </nav>
         </div>
+        <div
+          className={"close " + (this.state.isOpen ? "close-menu" : "")}
+          onClick={onClick}
+        ></div>
       </div>
     );
   }
