@@ -1,0 +1,56 @@
+.menu{
+  position: relative;
+  z-index: 10;
+}
+.menu-img{
+  position: fixed;
+  top: 25px;
+  right: 25px;
+  width: 50px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  z-index: 15;
+}
+
+.rotate{
+  transform: rotate(360deg);
+}
+
+.right-menu{
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  /* width: 40vw; */
+  width: 0;
+  height: 100vh;
+  background-color: #C7B299;
+  transition: all 0.5s ease;
+}
+.open-menu {
+  width:40vw; 
+  max-width: 350px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  white-space: nowrap;
+}
+a:hover{
+  color: #707070;
+  text-decoration: underline
+}
+li {
+  margin: 2rem 0;
+  list-style: none;
+}
+.right-menu .contents {
+  top: 90px;
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  overflow-x: hidden;
+  text-align: center;
+  width: 100%;
+}

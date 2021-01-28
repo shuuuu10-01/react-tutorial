@@ -5,10 +5,12 @@ import Title from './Title';
 const skill: React.CSSProperties = {
   position: "relative",
   margin: "0",
+  marginTop: "100vh",
   minHeight: "100vh",
   backgroundColor: "white",
   alignItems: "center",
   justifyContent: "center",
+  boxShadow: 'rgba(0, 0, 0, 0.35) 0px 5px 15px'
 };
 
 

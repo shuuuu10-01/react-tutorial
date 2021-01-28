@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Header from './components/Header'
 import Home from "./pages/Home";
 import About from "./pages/About";
 
@@ -8,9 +9,7 @@ import About from "./pages/About";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>Header</p>
-      </header>
+      <Header/>
       <main className="App-main">
         <Router>
           <Switch>

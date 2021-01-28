@@ -1,11 +1,11 @@
 import　* as React from "react";
+import "../App.css";
 
 type Props = {
   title: string;
 }
 
 const title: React.CSSProperties = {
-  color: "#707070",
   fontWeight: "bolder",
   fontSize: "min(53.76px, 7vw)",
   textDecoration: "underline",
@@ -20,7 +20,7 @@ class Title extends React.Component<Props,{}> {
     console.log(this.props);
     // const title = this.props;
     return (
-      <div>
+      <div className="Text-color">
         <h2 style={title}>{this.props.title}</h2>
       </div>
     );
