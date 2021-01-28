@@ -5,6 +5,7 @@ import Title from "./Title";
 const skill: React.CSSProperties = {
   position: "relative",
   margin: "0",
+  minHeight: "100vh",
   backgroundColor: "white",
   alignItems: "center",
   justifyContent: "center",
@@ -14,11 +15,9 @@ class Life extends React.Component {
   render() {
     const title = "Life&Education";
     return (
-      <section style={skill} className="home-child">
+      <div style={skill} className="home-child">
         <Title title={title} />
-        {/* <br/>
-        <img src='/img/shuuuu.png' alt="logo" style={logo}/> */}
-      </section>
+      </div>
     );
   }
 }

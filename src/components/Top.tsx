@@ -5,6 +5,7 @@ import Title from './Title';
 const top: React.CSSProperties = {
   position: 'relative',
   margin: '0',
+  minHeight: '100vh',
   backgroundColor: '#FFFFE4',
   alignItems: 'center',
   justifyContent: 'center',
@@ -25,11 +26,11 @@ class Top extends React.Component {
   render () {
     const title = "Portfolio"
     return (
-      <section style={top} className="home-child">
+      <div style={top} className="home-child">
         <Title title={title} />
         <br />
         <img src="/img/shuuuu.png" alt="logo" style={logo} />
-      </section>
+      </div>
     );
   }
 }

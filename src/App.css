@@ -51,11 +51,11 @@
 }
 
 .home-container {
-  scroll-snap-type: y mandatory;
-   overflow: auto;
-  height:100vh;
+  /* scroll-snap-type: y mandatory;
+  overflow: auto;
+  min-height:100vh; */
 }
 .home-child {
-  scroll-snap-align: start;
-  height: 100%;
+  /* scroll-snap-align: start;
+  height: 100%; */
 }
