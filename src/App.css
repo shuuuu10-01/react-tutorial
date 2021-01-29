@@ -3,8 +3,10 @@
   --text-color: #C7B299;
   --text-black: #707070;
   --back-color: #FFFFE4;
+  --bg-content: #f6f5f5;
+  --bg-menu: #5eaaa8;
+  --white: white;
 }
-
 
 .App {
   text-align: center;
@@ -31,7 +33,7 @@
   text-align: left;
   width: 100%;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: var(--white);
 }
 .App-header p {
   margin-left: 15px;
@@ -64,6 +66,5 @@
   min-height:100vh; */
 }
 .home-child {
-  /* scroll-snap-align: start;
-  height: 100%; */
+  background-color: var(--bg-content);
 }

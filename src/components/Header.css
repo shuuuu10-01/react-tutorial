@@ -17,13 +17,13 @@ i.menu-icon {
   left: 25px;
   top: 25px;
   font-size: 25px;
-  color: white;
+  color: var(--white);
   transition: all 0.5s ease;
   cursor: pointer;
 }
 i.menu-icon:hover{
   font-size: 28px;
-  color: #707070;
+  color: var(--text-black);
 }
 
 .rotate{
@@ -37,7 +37,7 @@ i.menu-icon:hover{
   /* width: 40vw; */
   width: 0;
   height: 100vh;
-  background-color: #C7B299;
+  background-color: var(--bg-menu);
   transition: all 0.5s ease;
   z-index: 10;
 }
@@ -48,13 +48,13 @@ i.menu-icon:hover{
 }
 
 a {
-  color: white;
+  color: var(--white);
   text-decoration: none;
   white-space: nowrap;
   font-size: 4vw;
 }
 a:hover{
-  color: #707070;
+  color: var(--text-black);
   text-decoration: underline
 }
 @media (min-width: 768px) {

@@ -6,7 +6,6 @@ const skill: React.CSSProperties = {
   position: "relative",
   margin: "0",
   minHeight: "100vh",
-  backgroundColor: "white",
   alignItems: "center",
   justifyContent: "center",
 };
