@@ -65,6 +65,11 @@ class Life extends React.Component {
           mode="VERTICAL"
           slideItemDuration={450}
           hideControls
+          theme={{
+            primary: "#5eaaa8",
+            secondary: "#FFFFE4",
+            cardForeColor: "#707070",
+          }}
         />
       </div>
     );
