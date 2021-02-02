@@ -27,7 +27,7 @@ const logo: React.CSSProperties = {
 
 class Top extends React.Component {
   render () {
-    const title = "Portfolio"
+    const title = "Introduction"
     return (
       <div style={top} className="home-child">
         <Title title={title} />

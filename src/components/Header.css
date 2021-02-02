@@ -11,6 +11,9 @@
   cursor: pointer;
   z-index: 15;
 }
+.menu-img:hover{
+  width: 55px;
+}
 
 i.menu-icon {
   position: absolute;

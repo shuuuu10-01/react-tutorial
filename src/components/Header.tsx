@@ -29,7 +29,7 @@ class Header extends React.Component<{}, State> {
           <nav className="contents">
             <ul>
               <li>
-                <a href="/">Portfolio</a>
+                <a href="/">Introduction</a>
               </li>
               <li>
                 <a href="/">Skills</a>
